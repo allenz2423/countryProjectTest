@@ -2,9 +2,10 @@
 
 .mainHeader {
     background-image: url(images/romeBackground.jpg);
-    padding: 10px;
-    border-width: 100px
-    object-fit: fill;
+}
+.mainHeader h1{
+    font-family: 'Rye', cursive;
+
 }
 
 .mainHeader h3 {
