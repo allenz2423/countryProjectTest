@@ -1,13 +1,42 @@
-
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: peachpuff;
+}
 
 .mainHeader {
-    background-image: url(images/romeBackground.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    flex: 1;
+    background-image: url(images/romeBackground.jpg); 
+    margin: auto;
+    border: orange 10px solid;
+    width: 90%; 
+    padding-top: 100px;
+    padding-bottom: 300px;
 }
-.mainHeader h1{
+
+.mainHeaderTitle {
     font-family: 'Rye', cursive;
-
+    font-size: 40;
+    color: white;
+    letter-spacing: 0.3em;
+    word-spacing: 0.5em;
 }
 
-.mainHeader h3 {
-    opacity:50%
+.mainHeaderSub {
+    font-family: 'Rye', cursive;
+    font-weight: lighter;
+    font-size: 20;
+    color: white;
+}
+
+
+
+
+
+#mainFooter {
+    font-family: monospace;
+    font-size: 15;
 }
