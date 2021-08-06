@@ -6,6 +6,7 @@ body {  /* display flex whole website to make column */
     margin: 0;
     margin-top: 10px;
     font-family: 'Rye', cursive;
+    transition: all 3s;
 }
 
 .mainHeader { /*display flex main header in order to make subtitle */
@@ -124,12 +125,27 @@ body {  /* display flex whole website to make column */
     padding: 0px;
     border:rgba(202, 178, 71, 0.644) 10px solid;
     margin: 10px;
+    filter: grayscale(100%);
 }
 
 #img5:hover, #img6:hover, #img7:hover, #img8:hover {
     transform: scale(1.05);
     border-color:rgba(231, 138, 131, 0.644);
+    filter: grayscale(0%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #mainFooter {
     font-family: monospace;
@@ -139,5 +155,4 @@ body {  /* display flex whole website to make column */
     padding: 10px;
     border-top: 5px rgba(247, 84, 84, 0.616) solid;
     margin: 0px;
-    
 }
