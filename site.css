@@ -1,36 +1,73 @@
-body {
+body {  /* display flex whole website to make column */
     display: flex;
     flex-direction: column;
     background-color: peachpuff;
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Rye', cursive;
 }
 
-.mainHeader {
+.mainHeader { /*display flex main header in order to make subtitle */
     display: flex;
     flex-direction: column;
     align-items: center;   
-    flex: 1;
     background-image: url(images/romeBackground.jpg); 
     margin: auto;
-    border: orange 10px solid;
+    border: rgb(238, 178, 66) 10px solid;
     width: 90%; 
     padding-top: 100px;
     padding-bottom: 300px;
 }
 
 .mainHeaderTitle {
-    font-family: 'Rye', cursive;
     font-size: 40;
     color: white;
     letter-spacing: 0.3em;
     word-spacing: 0.5em;
+    transition-duration: 0.8s;
+}
+
+.mainHeaderTitle:hover {
+    transform: translateY(-10px);
 }
 
 .mainHeaderSub {
-    font-family: 'Rye', cursive;
     font-weight: lighter;
     font-size: 20;
     color: white;
 }
+
+.secondPart {
+    
+}
+
+.secondPartHeader {
+    font-size: 30;
+
+}
+
+.secondPartSub {
+    font-weight: lighter;
+    font-size: 20;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -39,4 +76,10 @@ body {
 #mainFooter {
     font-family: monospace;
     font-size: 15;
+    color: white;
+    background-color: rgb(226, 169, 162);
+    padding: 10px;
+    border-top: 5px rgba(247, 84, 84, 0.616) solid;
+    margin: 0px;
+    
 }
