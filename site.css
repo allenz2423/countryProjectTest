@@ -123,6 +123,37 @@ body {  /* display flex whole website to make column */
     filter: grayscale(0%);
 }
 
+.fourthPart {
+    flex: 1;
+    display:flex;
+    background-color:rgba(226, 209, 162, 0.644);
+    border: rgb(235, 175, 86) 10px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fourthPartWords {
+    flex: 1;
+    color:white;
+    border: rgb(235, 183, 86) 10px solid;
+    background-color: rgba(235, 183, 86, 0.466);
+    padding: 15px;
+    text-align: center;
+}
+
+.fourthPartImages {
+    flex: 1.5;
+}
+
+#img9, #img10, #img11, #img12 {
+    width: 300px;
+    height: 180px;
+    padding: 0px;
+    border:rgba(202, 178, 71, 0.644) 10px solid;
+    margin: 10px;
+    filter:sepia(40%);
+}
+
 
 
 
