@@ -1,7 +1,8 @@
 body {  /* display flex whole website to make column */
     display: flex;
     flex-direction: column;
-    background-color: peachpuff;
+    justify-content: space-around;
+    background-image: linear-gradient(peachpuff,pink, rgba(255, 0, 0, 0.466));
     margin: 0;
     margin-top: 10px;
     font-family: 'Rye', cursive;
@@ -38,12 +39,27 @@ body {  /* display flex whole website to make column */
 }
 
 .secondPart {
+    display:flex;
+    justify-content: space-around;
+    background-color:rgba(218, 198, 145, 0.644);
+    border: rgb(235, 183, 86) 10px solid;
+    padding: 10px;
+    margin: 10px;
+}
 
+.secondPartWords {
+    flex: 1;
+    text-align: center;
+    border: rgb(235, 183, 86) 10px solid;
+    background-color: rgba(235, 183, 86, 0.466);
+    padding: 5px;
+    margin: 10px;
+    color: white; 
+    
 }
 
 .secondPartHeader {
     font-size: 30;
-
 }
 
 .secondPartSub {
@@ -51,8 +67,18 @@ body {  /* display flex whole website to make column */
     font-size: 20;
 }
 
+.secondPartImages {
+    flex: 1.5;
+}
 
+#img1, #img2, #img3, #img4 {
+    border: rgb(235, 183, 86) 10px solid;
+    margin: 5px;
+}
 
+#img1:hover, #img2:hover, #img3:hover, #img4:hover {
+    transform: scale(1.05);
+}
 
 
 
