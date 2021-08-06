@@ -2,7 +2,7 @@
 
 .mainHeader {
     background-image: url(images/romeBackground.jpg);
-    border-image-width: 10px;
+    object-fit: fill;
 }
 
 .mainHeader h3 {
