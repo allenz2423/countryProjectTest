@@ -152,11 +152,14 @@ body {  /* display flex whole website to make column */
     border:rgba(202, 178, 71, 0.644) 10px solid;
     margin: 10px;
     filter:sepia(40%);
+    
 }
 
-
-
-
+#img9:hover, #img10:hover, #img11:hover, #img12:hover {
+    transform:translateY(-10px);
+    box-shadow: 5px 5px rgba(190, 163, 42, 0.644);
+    transition: 0.5s;
+}
 
 #mainFooter {
     font-family: monospace;
