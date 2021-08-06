@@ -2,7 +2,7 @@ body {  /* display flex whole website to make column */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: linear-gradient(peachpuff,pink, rgba(255, 0, 0, 0.466));
+    background-image: linear-gradient(peachpuff, rgb(250, 250, 250), peachpuff);
     margin: 0;
     margin-top: 10px;
     font-family: 'Rye', cursive;
@@ -18,6 +18,8 @@ body {  /* display flex whole website to make column */
     width: 90%; 
     padding-top: 100px;
     padding-bottom: 300px;
+   
+    
 }
 
 .mainHeaderTitle {
@@ -28,21 +30,22 @@ body {  /* display flex whole website to make column */
     transition-duration: 0.8s;
 }
 
-.mainHeaderTitle:hover {
-    transform: translateY(-10px);
-}
-
 .mainHeaderSub {
     font-weight: lighter;
     font-size: 20;
     color: white;
+    transition-duration: 0.8s;
+}
+
+.mainHeaderTitle:hover, .mainHeaderSub:hover {
+    transform: translateY(-10px);
 }
 
 .secondPart {
     display:flex;
     justify-content: space-around;
-    background-color:rgba(218, 198, 145, 0.644);
-    border: rgb(235, 183, 86) 10px solid;
+    background-color:rgba(226, 209, 162, 0.644);
+    border: rgb(235, 175, 86) 10px solid;
     padding: 10px;
     margin: 10px;
 }
@@ -74,28 +77,47 @@ body {  /* display flex whole website to make column */
 #img1, #img2, #img3, #img4 {
     border: rgb(235, 183, 86) 10px solid;
     margin: 5px;
+    height: 180px;
+    width: 300px;
 }
 
 #img1:hover, #img2:hover, #img3:hover, #img4:hover {
     transform: scale(1.05);
+    border-color:peru;
+}
+
+.thirdPart {
+    flex: 1;
+    display:flex;
+    flex-direction: row-reverse;
+    border:rgba(231, 138, 131, 0.644) 10px solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(187, 221, 187);
+}
+
+.thirdPartWords {
+    flex: 1;
+    color:white;
+}
+
+.thirdPartImages {
+    flex: 1.5;
 }
 
 
+#img5, #img6, #img7 {
+    width: 300px;
+    height: 180px;
+    padding: 0px;
+    border:rgba(202, 178, 71, 0.644) 10px solid;
+    margin: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#img5:hover, #img6:hover, #img7:hover {
+    transform: scale(1.05);
+    border-color:rgba(231, 138, 131, 0.644);
+}
 
 
 
