@@ -32,7 +32,7 @@ body {  /* display flex whole website to make column */
 }
 
 #navContainer li {
-    display: inline; 
+    display: inline-block; 
     list-style: none;
     padding-left: 100px;
     padding-right: 100px;
@@ -56,7 +56,7 @@ body {  /* display flex whole website to make column */
     height: 28%;
     margin: auto;
     border: rgb(238, 178, 66) 10px solid;
-    width: 89vw; 
+    width: 89%;
     padding-top: 100px;
     padding-bottom: 300px;
 }
@@ -226,5 +226,8 @@ body {  /* display flex whole website to make column */
         display: flex;
         flex-direction: column;
     }
+}
 
+@media (max-width: 1000px) {
+    
 }
