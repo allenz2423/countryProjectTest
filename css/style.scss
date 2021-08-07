@@ -12,7 +12,7 @@ body {  /* display flex whole website to make column */
 
 .navbar {
     display: flex;
-    background-color: rgba(226, 209, 162, 0.644);
+    background-color: rgb(226, 209, 162);
     border-bottom: rgb(238, 178, 66) 10px solid;
     margin-bottom: 10px;
     justify-content: space-evenly;
@@ -44,7 +44,7 @@ body {  /* display flex whole website to make column */
 }
 
 #navContainer ul a:hover {
-    color: black;
+    color: red;
 }
 
 .mainHeader { /*display flex main header in order to make subtitle */
