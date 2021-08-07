@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
 body {  /* display flex whole website to make column */
     display: flex;
     flex-direction: column;
@@ -125,11 +127,6 @@ body {  /* display flex whole website to make column */
     filter: grayscale(0%);
 }
 
-#img5{
-    height: 720px;
-    width: 1280px;
-}
-
 .fourthPart {
     flex: 1;
     display:flex;
@@ -177,3 +174,5 @@ body {  /* display flex whole website to make column */
     border-top: 5px rgba(247, 84, 84, 0.616) solid;
     margin: 0px;
 }
+
+
