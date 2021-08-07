@@ -78,6 +78,10 @@ body {
   width: 89vw;
   padding-top: 100px;
   padding-bottom: 300px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  z-index: -1;
 }
 
 .mainHeaderTitle {
