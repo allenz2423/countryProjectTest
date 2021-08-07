@@ -13,9 +13,10 @@ body {  /* display flex whole website to make column */
     flex-direction: column;
     align-items: center;   
     background-image: url(/images/romeBackground.jpg); 
+    height: 28%;
     margin: auto;
     border: rgb(238, 178, 66) 10px solid;
-    width: 90%; 
+    width: 89vw; 
     padding-top: 100px;
     padding-bottom: 300px;
 }
@@ -25,6 +26,7 @@ body {  /* display flex whole website to make column */
     color: white;
     letter-spacing: 0.3em;
     word-spacing: 0.5em;
+    padding-bottom: 30px;
     transition-duration: 0.8s;
 }
 

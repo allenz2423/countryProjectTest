@@ -29,9 +29,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-image: url(/images/romeBackground.jpg);
+  height: 28%;
   margin: auto;
   border: #eeb242 10px solid;
-  width: 90%;
+  width: 89vw;
   padding-top: 100px;
   padding-bottom: 300px;
 }
@@ -41,6 +42,7 @@ body {
   color: white;
   letter-spacing: 0.3em;
   word-spacing: 0.5em;
+  padding-bottom: 30px;
   -webkit-transition-duration: 0.8s;
           transition-duration: 0.8s;
 }
