@@ -13,8 +13,39 @@ body {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f8d89c), color-stop(peachpuff), color-stop(#fafafa), color-stop(peachpuff), to(#f8d89c));
   background-image: linear-gradient(#f8d89c, peachpuff, #fafafa, peachpuff, #f8d89c);
   margin: 0;
-  margin-top: 10px;
   font-family: 'Rye', cursive;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(226, 209, 162, 0.644);
+  border-bottom: #eeb242 10px solid;
+  margin-bottom: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#navContainer {
+  margin: 0;
+  padding: 0;
+}
+
+#navContainer ul {
+  padding: 10px;
+}
+
+#navContainer li {
+  display: inline;
+  list-style: none;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#navbarContainer a {
+  color: white;
 }
 
 .mainHeader {
