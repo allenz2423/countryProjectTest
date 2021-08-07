@@ -7,6 +7,7 @@ body {  /* display flex whole website to make column */
     background-image: linear-gradient(rgb(248, 216, 156), peachpuff, rgb(250, 250, 250), peachpuff, rgb(248, 216, 156));
     margin: 0;
     font-family: 'Rye', cursive;
+    position: absolute;
 }
 
 .navbar {
@@ -15,26 +16,35 @@ body {  /* display flex whole website to make column */
     border-bottom: rgb(238, 178, 66) 10px solid;
     margin-bottom: 10px;
     justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
 }
-
+    
 #navContainer{
     margin: 0;
     padding: 0;
 }
 
 #navContainer ul{
-    padding: 10px;
+    margin: none;
+    padding: 1px;
 }
 
 #navContainer li {
-    display: inline;
+    display: inline; 
     list-style: none;
     padding-left: 100px;
     padding-right: 100px;
 }
 
-#navbarContainer a{
+#navContainer ul a:link, #navContainer ul a:visited {
+    text-decoration: none;
     color: white;
+}
+
+#navContainer ul a:hover {
+    color: black;
 }
 
 .mainHeader { /*display flex main header in order to make subtitle */

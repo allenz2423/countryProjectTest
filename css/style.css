@@ -14,6 +14,7 @@ body {
   background-image: linear-gradient(#f8d89c, peachpuff, #fafafa, peachpuff, #f8d89c);
   margin: 0;
   font-family: 'Rye', cursive;
+  position: absolute;
 }
 
 .navbar {
@@ -26,6 +27,10 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
 }
 
 #navContainer {
@@ -34,7 +39,8 @@ body {
 }
 
 #navContainer ul {
-  padding: 10px;
+  margin: none;
+  padding: 1px;
 }
 
 #navContainer li {
@@ -44,8 +50,13 @@ body {
   padding-right: 100px;
 }
 
-#navbarContainer a {
+#navContainer ul a:link, #navContainer ul a:visited {
+  text-decoration: none;
   color: white;
+}
+
+#navContainer ul a:hover {
+  color: black;
 }
 
 .mainHeader {
