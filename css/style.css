@@ -72,6 +72,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-image: url(/images/romeBackground.jpg);
+  background-size: cover;
   height: 28%;
   margin: auto;
   border: #eeb242 10px solid;
@@ -266,5 +267,26 @@ body {
   padding: 10px;
   border-top: 5px rgba(247, 84, 84, 0.616) solid;
   margin: 0px;
+}
+
+@media (max-width: 1276px) {
+  .secondPartHeader, .thirdPartHeader, .fourthPartHeader {
+    font-size: 60;
+  }
+  .secondPartSub, .thirdPartSub, .fourthPartSub {
+    font-size: 30;
+  }
+  .secondPartImages, .thirdPartImages, .fourthPartImages {
+    -webkit-box-flex: 0.5;
+        -ms-flex: 0.5;
+            flex: 0.5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
