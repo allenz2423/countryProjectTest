@@ -31,6 +31,7 @@ body {
   position: sticky;
   top: 0px;
   z-index: 10;
+  white-space: nowrap;
 }
 
 #navContainer {
@@ -287,13 +288,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-}
-
-@media (max-width: 1168px) {
-  .navContainer ul li {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
