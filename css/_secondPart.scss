@@ -1,0 +1,36 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+
+.secondPart {
+    justify-content: space-around;
+    @include sectionStyle;
+   
+}
+
+.secondPartWords {
+    flex: 1;
+    text-align: center;
+    border: rgb(235, 183, 86) 10px solid;
+    background-color: rgba(235, 183, 86, 0.466);
+    padding: 15px;
+    margin: 10px;
+    color: white; 
+    
+}
+
+.secondPartImages {
+    flex: 1.5;
+}
+
+#img1, #img2, #img3, #img4 {
+    border: rgb(235, 183, 86) 10px solid;
+    margin: 5px;
+    height: 180px;
+    width: 300px;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover {
+    transform: scale(1.05);
+    border-color:peru;
+}

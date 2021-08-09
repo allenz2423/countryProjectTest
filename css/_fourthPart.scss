@@ -1,0 +1,36 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.fourthPart {
+    flex: 1;
+    @include sectionStyle;
+}
+
+.fourthPartWords {
+    flex: 1;
+    color:white;
+    border: rgb(235, 183, 86) 10px solid;
+    background-color: rgba(235, 183, 86, 0.466);
+    padding: 15px;
+    text-align: center;
+}
+
+.fourthPartImages {
+    flex: 1.5;
+}
+
+#img9, #img10, #img11, #img12 {
+    width: 300px;
+    height: 180px;
+    padding: 0px;
+    border:rgba(202, 178, 71, 0.644) 10px solid;
+    margin: 10px;
+    filter:sepia(40%);
+    
+}
+
+#img9:hover, #img10:hover, #img11:hover, #img12:hover {
+    transform:translateY(-10px);
+    box-shadow: 5px 5px rgba(190, 163, 42, 0.644);
+    transition: 0.5s;
+}

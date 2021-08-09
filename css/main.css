@@ -1,125 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
-body {
-  /* display flex whole website to make column */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8d89c), color-stop(peachpuff), color-stop(#fafafa), color-stop(peachpuff), to(#f8d89c));
-  background-image: linear-gradient(#f8d89c, peachpuff, #fafafa, peachpuff, #f8d89c);
-  margin: 0;
-  font-family: 'Rye', cursive;
-  position: absolute;
-}
-
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #e2d1a2;
-  border-bottom: #eeb242 10px solid;
-  margin-bottom: 10px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  z-index: 10;
-  white-space: nowrap;
-}
-
-#navContainer {
-  margin: 0;
-  padding: 0;
-}
-
-#navContainer ul {
-  margin: none;
-  padding: 1px;
-}
-
-#navContainer li {
-  display: inline;
-  list-style: none;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-#navContainer ul a:link, #navContainer ul a:visited {
-  text-decoration: none;
-  color: white;
-}
-
-#navContainer ul a:hover {
-  color: black;
-}
-
-.mainHeader {
-  /*display flex main header in order to make subtitle */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url(/images/romeBackground.jpg);
-  background-size: cover;
-  height: 28%;
-  margin: auto;
-  border: #eeb242 10px solid;
-  width: 89%;
-  padding-top: 100px;
-  padding-bottom: 300px;
-}
-
-.mainHeaderTitle {
-  font-size: 40;
-  color: white;
-  letter-spacing: 0.3em;
-  word-spacing: 0.5em;
-  padding-bottom: 30px;
-  -webkit-transition-duration: 0.8s;
-          transition-duration: 0.8s;
-}
-
-.mainHeaderSub {
-  font-weight: lighter;
-  font-size: 20;
-  color: white;
-  -webkit-transition-duration: 0.8s;
-          transition-duration: 0.8s;
-}
-
-.mainHeaderTitle:hover, .mainHeaderSub:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
-
-.secondPartHeader, .thirdPartHeader, .fourthPartHeader {
-  font-size: 30;
-}
-
-.secondPartSub, .thirdPartSub, .fourthPartSub {
-  font-weight: lighter;
-  font-size: 20;
-}
-
 .secondPart {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   background-color: rgba(226, 209, 162, 0.644);
   border: #ebaf56 10px solid;
   padding: 10px;
@@ -270,6 +155,121 @@ body {
   margin: 0px;
 }
 
+body {
+  /* display flex whole website to make column */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8d89c), color-stop(peachpuff), color-stop(white), color-stop(peachpuff), to(#f8d89c));
+  background-image: linear-gradient(#f8d89c, peachpuff, white, peachpuff, #f8d89c);
+  margin: 0;
+  font-family: 'Rye', cursive;
+  position: absolute;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e2d1a2;
+  border-bottom: #eeb242 10px solid;
+  margin-bottom: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+#navContainer {
+  margin: 0;
+  padding: 0;
+}
+
+#navContainer ul {
+  margin: none;
+  padding: 1px;
+}
+
+#navContainer li {
+  display: inline;
+  list-style: none;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#navContainer ul a:link, #navContainer ul a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#navContainer ul a:hover {
+  color: black;
+}
+
+.mainHeader {
+  /*display flex main header in order to make subtitle */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/images/romeBackground.jpg);
+  background-size: cover;
+  height: 28%;
+  margin: auto;
+  border: #eeb242 10px solid;
+  width: 89%;
+  padding-top: 100px;
+  padding-bottom: 300px;
+}
+
+.mainHeaderTitle {
+  font-size: 40;
+  color: white;
+  letter-spacing: 0.3em;
+  word-spacing: 0.5em;
+  padding-bottom: 30px;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.mainHeaderSub {
+  font-weight: lighter;
+  font-size: 20;
+  color: white;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.mainHeaderTitle:hover, .mainHeaderSub:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.secondPartHeader, .thirdPartHeader, .fourthPartHeader {
+  font-size: 30;
+}
+
+.secondPartSub, .thirdPartSub, .fourthPartSub {
+  font-weight: lighter;
+  font-size: 20;
+}
+
 @media (max-width: 1276px) {
   .secondPartHeader, .thirdPartHeader, .fourthPartHeader {
     font-size: 60;
@@ -288,6 +288,20 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  #navContainer li {
+    font-size: 35;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .mainHeaderTitle {
+    font-size: 60;
+  }
+  .mainHeaderSub {
+    font-size: 45;
   }
 }
 /*# sourceMappingURL=main.css.map */

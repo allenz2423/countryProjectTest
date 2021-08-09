@@ -1,3 +1,8 @@
+@import "_secondPart.scss";
+@import "_thirdPart.scss";
+@import "_fourthPart.scss";
+@import "_lastPart.scss";
+@import "_variables.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 
@@ -5,7 +10,7 @@ body {  /* display flex whole website to make column */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: linear-gradient(rgb(248, 216, 156), peachpuff, rgb(250, 250, 250), peachpuff, rgb(248, 216, 156));
+    background-image: linear-gradient(rgb(248, 216, 156), peachpuff,white, peachpuff, rgb(248, 216, 156));
     margin: 0;
     font-family: 'Rye', cursive;
     position: absolute;
@@ -92,130 +97,6 @@ body {  /* display flex whole website to make column */
     font-size: 20;
 }
 
-.secondPart {
-    display:flex;
-    justify-content: space-around;
-    background-color:rgba(226, 209, 162, 0.644);
-    border: rgb(235, 175, 86) 10px solid;
-    padding: 10px;
-    margin: 10px;
-}
-
-.secondPartWords {
-    flex: 1;
-    text-align: center;
-    border: rgb(235, 183, 86) 10px solid;
-    background-color: rgba(235, 183, 86, 0.466);
-    padding: 15px;
-    margin: 10px;
-    color: white; 
-    
-}
-
-.secondPartImages {
-    flex: 1.5;
-}
-
-#img1, #img2, #img3, #img4 {
-    border: rgb(235, 183, 86) 10px solid;
-    margin: 5px;
-    height: 180px;
-    width: 300px;
-}
-
-#img1:hover, #img2:hover, #img3:hover, #img4:hover {
-    transform: scale(1.05);
-    border-color:peru;
-}
-
-.thirdPart {
-    flex: 1;
-    display:flex;
-    flex-direction: row-reverse;
-    border:rgba(231, 138, 131, 0.644) 10px solid;
-    padding: 10px;
-    margin: 10px;
-    background-color: rgb(187, 221, 187);
-}
-
-.thirdPartWords {
-    flex: 1;
-    color:white;
-    border: rgba(202, 178, 71, 0.644) 10px solid;
-    background-color: rgb(151, 218, 151);
-    padding: 15px;
-    text-align: center;
-}
-
-.thirdPartImages {
-    flex: 1.5;
-}
-
-#img5, #img6, #img7, #img8 {
-    width: 300px;
-    height: 180px;
-    padding: 0px;
-    border:rgba(202, 178, 71, 0.644) 10px solid;
-    margin: 10px;
-    filter: grayscale(100%);
-}
-
-#img5:hover, #img6:hover, #img7:hover, #img8:hover {
-    transition: 0.5s;
-    transform: scale(1.05);
-    border-color:rgba(231, 138, 131, 0.644);
-    filter: grayscale(0%);
-}
-
-.fourthPart {
-    flex: 1;
-    display:flex;
-    background-color:rgba(226, 209, 162, 0.644);
-    border: rgb(235, 175, 86) 10px solid;
-    padding: 10px;
-    margin: 10px;
-}
-
-.fourthPartWords {
-    flex: 1;
-    color:white;
-    border: rgb(235, 183, 86) 10px solid;
-    background-color: rgba(235, 183, 86, 0.466);
-    padding: 15px;
-    text-align: center;
-}
-
-.fourthPartImages {
-    flex: 1.5;
-}
-
-#img9, #img10, #img11, #img12 {
-    width: 300px;
-    height: 180px;
-    padding: 0px;
-    border:rgba(202, 178, 71, 0.644) 10px solid;
-    margin: 10px;
-    filter:sepia(40%);
-    
-}
-
-#img9:hover, #img10:hover, #img11:hover, #img12:hover {
-    transform:translateY(-10px);
-    box-shadow: 5px 5px rgba(190, 163, 42, 0.644);
-    transition: 0.5s;
-}
-
-#mainFooter {
-    font-family: monospace;
-    font-size: 15;
-    color: white;
-    background-color: rgb(226, 169, 162);
-    padding: 10px;
-    border-top: 5px rgba(247, 84, 84, 0.616) solid;
-    margin: 0px;
-}
-
-
 @media (max-width: 1276px) {
     .secondPartHeader, .thirdPartHeader, .fourthPartHeader {
         font-size: 60;
@@ -230,3 +111,16 @@ body {  /* display flex whole website to make column */
     }
 }
 
+@media (max-width: 1024px) {
+    #navContainer li {
+        font-size: 35;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .mainHeaderTitle {
+        font-size: 60;
+    }
+    .mainHeaderSub {
+        font-size: 45;
+    }
+}
