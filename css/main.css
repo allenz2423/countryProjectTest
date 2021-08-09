@@ -81,7 +81,7 @@
   height: 180px;
   padding: 0px;
   border: rgba(202, 178, 71, 0.644) 10px solid;
-  margin: 10px;
+  margin: 0.625rem;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
@@ -230,7 +230,7 @@ body {
           align-items: center;
   background-image: url(/images/romeBackground.jpg);
   background-size: cover;
-  height: 28%;
+  height: 18vh;
   margin: auto;
   border: #eeb242 10px solid;
   width: 89%;
