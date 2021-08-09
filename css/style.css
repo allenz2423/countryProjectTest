@@ -44,7 +44,7 @@ body {
 }
 
 #navContainer li {
-  display: inline-block;
+  display: inline;
   list-style: none;
   padding-left: 100px;
   padding-right: 100px;
@@ -292,7 +292,8 @@ body {
 
 @media (max-width: 1168px) {
   .navContainer ul li {
-    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
