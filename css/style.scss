@@ -228,6 +228,8 @@ body {  /* display flex whole website to make column */
     }
 }
 
-@media (max-width: 1000px) {
-    
+@media (max-width: 1168px) {
+    .navContainer ul li {
+        padding: 0px;
+    }
 }
