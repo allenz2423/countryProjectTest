@@ -1,0 +1,36 @@
+.fifthPart {
+    flex: 1;
+    display:flex;
+    flex-direction: row-reverse;
+    border:rgba(108, 165, 240, 0.644) 10px solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(187, 221, 215);
+}
+
+.fifthPartWords {
+    flex: 1;
+    color:white;
+    border: rgba(93, 134, 196, 0.644) 10px solid;
+    background-color: rgb(197, 201, 219);
+    padding: 15px;
+    text-align: center;
+}
+
+.fifthPartImages {
+    flex: 1.5;
+}
+
+#img13, #img14, #img15, #img16 {
+    width: 300px;
+    height: 180px;
+    padding: 0px;
+    border:rgba(201, 117, 235, 0.774) 10px solid;
+    margin: 0.625rem;
+}
+
+#img13:hover, #img14:hover, #img15:hover, #img16:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+    border-color:rgba(185, 154, 226, 0.644);
+}

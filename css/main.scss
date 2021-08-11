@@ -1,6 +1,7 @@
 @import "_secondPart.scss";
 @import "_thirdPart.scss";
 @import "_fourthPart.scss";
+@import "_fifthPart.scss";
 @import "_lastPart.scss";
 @import "_variables.scss";
 
@@ -88,24 +89,24 @@ body {  /* display flex whole website to make column */
     transform: translateY(-10px);
 }
 
-.secondPartHeader, .thirdPartHeader, .fourthPartHeader {
+.secondPartHeader, .thirdPartHeader, .fourthPartHeader, .fifthPartHeader {
     font-size:30;
 }
 
-.secondPartSub, .thirdPartSub, .fourthPartSub {
+.secondPartSub, .thirdPartSub, .fourthPartSub, .fifthPartSub {
     font-weight: lighter;
     font-size: 20;
     line-height: 2em;
 }
 
 @media (max-width: 1276px) {
-    .secondPartHeader, .thirdPartHeader, .fourthPartHeader {
+    .secondPartHeader, .thirdPartHeader, .fourthPartHeader, .fifthPartHeader {
         font-size: 60;
     }
-    .secondPartSub, .thirdPartSub, .fourthPartSub {
+    .secondPartSub, .thirdPartSub, .fourthPartSub, .fifthPartSub {
         font-size: 30;
     }
-    .secondPartImages, .thirdPartImages, .fourthPartImages {
+    .secondPartImages, .thirdPartImages, .fourthPartImages, .fifthPartImages{
         flex: 0.5;
         display: flex;
         flex-direction: column;
@@ -124,7 +125,7 @@ body {  /* display flex whole website to make column */
     .mainHeaderSub {
         font-size: 45;
     }
-    .secondPartSub, .thirdPartSub, .fourthPartSub {
+    .secondPartSub, .thirdPartSub, .fourthPartSub, .fifthPartSub {
         font-size: 35;
     }
 }
