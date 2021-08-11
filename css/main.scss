@@ -95,6 +95,7 @@ body {  /* display flex whole website to make column */
 .secondPartSub, .thirdPartSub, .fourthPartSub {
     font-weight: lighter;
     font-size: 20;
+    line-height: 2em;
 }
 
 @media (max-width: 1276px) {
@@ -122,5 +123,8 @@ body {  /* display flex whole website to make column */
     }
     .mainHeaderSub {
         font-size: 45;
+    }
+    .secondPartSub, .thirdPartSub, .fourthPartSub {
+        font-size: 35;
     }
 }
