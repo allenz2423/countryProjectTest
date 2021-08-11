@@ -1,3 +1,4 @@
+@import "_firstPart.scss";
 @import "_secondPart.scss";
 @import "_thirdPart.scss";
 @import "_fourthPart.scss";
@@ -15,44 +16,6 @@ body {  /* display flex whole website to make column */
     margin: 0;
     font-family: 'Rye', cursive;
     position: absolute;
-}
-
-.navbar {
-    display: flex;
-    background-color: rgb(226, 209, 162);
-    border-bottom: rgb(238, 178, 66) 10px solid;
-    margin-bottom: 10px;
-    justify-content: space-evenly;
-    position: sticky;
-    top: 0px;
-    z-index: 10;
-    white-space: nowrap;
-}
-
-#navContainer{
-    margin: 0;
-    padding: 0;
-}
-
-#navContainer ul{
-    margin: none;
-    padding: 1px;
-}
-
-#navContainer li {
-    display: inline; 
-    list-style: none;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-    
-#navContainer ul a:link, #navContainer ul a:visited {
-    text-decoration: none;
-    color: white;
-}
-
-#navContainer ul a:hover {
-    color: black;
 }
 
 .mainHeader { /*display flex main header in order to make subtitle */

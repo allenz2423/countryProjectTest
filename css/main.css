@@ -1,4 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e2d1a2;
+  border-bottom: #eeb242 10px solid;
+  margin-bottom: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+#navContainer {
+  margin: 0;
+  padding: 0;
+}
+
+#navContainer ul {
+  margin: none;
+  padding: 1px;
+}
+
+#navContainer li {
+  display: inline;
+  list-style: none;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#navContainer ul a:link, #navContainer ul a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#navContainer ul a:hover {
+  color: black;
+}
+
 .secondPart {
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -183,7 +226,7 @@
   width: 300px;
   height: 180px;
   padding: 0px;
-  border: rgba(201, 117, 235, 0.774) 10px solid;
+  border: rgba(185, 154, 226, 0.644) 10px solid;
   margin: 0.625rem;
 }
 
@@ -192,7 +235,7 @@
   transition: 0.5s;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  border-color: rgba(185, 154, 226, 0.644);
+  border-color: #b28fe0;
 }
 
 #mainFooter {
@@ -221,49 +264,6 @@ body {
   margin: 0;
   font-family: 'Rye', cursive;
   position: absolute;
-}
-
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #e2d1a2;
-  border-bottom: #eeb242 10px solid;
-  margin-bottom: 10px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  z-index: 10;
-  white-space: nowrap;
-}
-
-#navContainer {
-  margin: 0;
-  padding: 0;
-}
-
-#navContainer ul {
-  margin: none;
-  padding: 1px;
-}
-
-#navContainer li {
-  display: inline;
-  list-style: none;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-#navContainer ul a:link, #navContainer ul a:visited {
-  text-decoration: none;
-  color: white;
-}
-
-#navContainer ul a:hover {
-  color: black;
 }
 
 .mainHeader {
